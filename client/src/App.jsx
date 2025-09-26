@@ -1,6 +1,6 @@
 // client/src/App.jsx
 import React, { useState } from 'react';
-import BackgroundLayer from './BackgroundLayer';
+import BackgroundLayer from './BackgroundLayer.jsx';
 import { sfx } from './sfx';
 
 const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || 'http://localhost:4000';
