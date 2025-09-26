@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: wie-deutsch-bist-du-server
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
